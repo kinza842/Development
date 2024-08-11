@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <form class="form-element">
+        <table border="1" class="form-element" cellspacing="5" cellpadding="10" width="90%">
+            <thead>
+                <tr>
+                    <th class="heading-size">Lable</th>
+                    <th class="heading-size">Input</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        <input type="text" value="fahad" name="name" id="" placeholder="Enter your name" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Your Email
+                    </td>
+                    <td>
+                        <input type="email" name="your_email" id="" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Your Password
+                    </td>
+                    <td>
+                        <input type="password" name="your_password" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Form Legent
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Your Place</legend>
+                            <label for="faisalbad">Faisalbad</label>
+                            <input type="radio" name="city" id="">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Select City
+                    </td>
+                    <td>
+                        <select required multiple>
+                            <option value="">--- select your city ---</option>
+                            <option value="faisalbad">Faisalabad</option>
+                            <option value="Lahore" selected>Lahore</option>
+                            <option value="Multan" selected>Multan</option>
+                            <option value="karachi">karachi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Textarea
+                    </td>
+                    <td>
+                        <textarea cols="40" rows="4" placeholder="Add some description" required>Hello</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Submit your form
+                    </td>
+                    <td>
+                        <input type="submit" name="submit" id="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

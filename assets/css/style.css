@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-element {
+  background-color: cyan;
+  padding: 10px;
+}
+
+table {
+  padding: 10px;
+  margin: auto;
+}
+/* Fontsize, color, spacing */
+.heading-size {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: blue;
+}
+td {
+  padding: 10px;
+  padding-right: 40px;
+}
+/* Mutliplr Select tags */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+.cv-element {
+  background-color: cyan;
+  padding: 10px;
+}
+
+.cv-element {
+  padding: 10px;
+  margin: auto;
+}
+/* Fontsize, color, spacing */
+.heading-size {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: blue;
+}
